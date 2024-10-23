@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 
 const MobilePage = () => {
-   // 1) setting up s t ate
+   // 1) setting up s t a te
   const [selectedCompanies, setSelectedCompanies] = useState([]);
 
     // 2) Get unique companies for checkbox options
